@@ -1,0 +1,185 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: "img/login2.png";
+	background-size: cover;
+	font-family: 'Quicksand', sans-serif;
+	background-color: #edebf4;
+}
+
+
+.login{
+	width: 320px;
+	height: 420px;
+	border: 3px solid #c4baf1;
+	border-radius: 50px;
+	color:#8e85b0;;
+	background-color: #e5e1f5;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 30px 20px;	
+}
+
+.usuario{
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: 112px;
+}
+
+.login h1{
+	margin: 0px;
+	padding-top: 50px;
+	padding-left: 0px;
+	padding-bottom: 20px;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	align-items: center;
+	font-size: 35px;
+
+}
+
+.login p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+
+}
+
+.login input{
+	width: 100%;
+	margin-bottom: 21px;
+
+}
+
+.login input[type="text"], input[type="password"]{
+	border:none;
+	border-bottom: 1px solid white;
+	background: #e5e1f5;
+	outline:none;
+	height: 48px;
+	color: #a396d4;
+	font-size: 16px;
+
+}
+
+.login input[type="submit"]{
+	position: center
+	border:none;
+	outline: none;
+	height: 35px;
+	
+	color: #000;
+	background: #fff;
+	border-radius:50px;
+	transition: 0.2s; 
+
+}
+
+.login input[type="submit"]:hover{
+	cursor: pointer;
+	background: #c4baf1;
+	transition: 0.2s
+}
+
+
+.restrita{
+	background: "img/login.jpg";
+}
+
+.restrita h2{
+	font-size: 30px;
+	color: #72679d;
+	margin-right: 10px;
+	margin-top: 15px;
+}
+
+
+.imgRestrita{
+	margin-top: 20px;
+	position: center;
+	
+	width: 100px;
+	height: 100px;
+}
+
+.cardRestrita{
+	margin-top: 159px;
+	background-color: #e9e6f6;
+	color: #564a88;
+	border:;
+
+}
+
+
+.index{
+	background-color: #7c6fb1;
+
+}
+
+.index h2{
+	font-family: 'Quicksand', sans-serif;
+}
+
+#opcoes{
+	margin-top: 20px;
+}
+
+.opcoes .card{
+	margin-top: 20px;
+}
+
+.notas{
+	height: 100px;
+	width: 100px;
+}
+
+.row img:hover{
+	-ms-transform:rotate(-10deg);
+	-webkit-transform:rotate(-10deg);
+	-moz-transform:rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+.row img{
+	width: 60%;
+	max-width:150px;
+    max-height:150px;
+    float: left;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+	
+.index{
+	margin: 50px;
+	margin-top: 0;
+}
+
+.card-header{
+	background-color: #b0a9d2;
+	color: white;
+}
+
+.card-danger{
+	margin: 50px;
+	margin-top: 40px;
+}
+
+.card{
+	margin-top: 0;
+	background-color: #e9e6f6;
+	color: #564a88;
+
+}
+
+.btn{
+	margin:10px;
+}
+
+.verNF{
+	margin-left: 20px;
+}
