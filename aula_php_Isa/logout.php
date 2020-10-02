@@ -3,7 +3,6 @@
 
 	unset(
 		$_SESSION['nf']
-
 	);
 
 
